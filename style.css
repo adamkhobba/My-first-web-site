@@ -4,7 +4,7 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	padding: 10px;
-	background-color: #333;
+	background-color: #4f0580;
 	color: #fff;
 }
 
@@ -22,6 +22,10 @@ header {
 	top: 0;
 }
 
+.color_text{
+	color:#4f0580 ;
+	font-weight: bold;
+}
 .right_header {
 	text-align: right;
 }
@@ -30,3 +34,42 @@ header {
 	text-align: left;
 }
 
+.my_name {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color:#4f0580;
+}
+
+.main_img{
+	margin: 40px;
+	height: 400px;
+}
+
+.flex_1{
+	display: flex;
+	justify-self: center;
+	justify-content: center;
+	background-color: #fff;
+}
+
+.main_block{
+	margin-top: 100px;
+}
+
+.button {
+	background: linear-gradient(#4f0580, #867194);
+	height: 40px;
+	width: 200px;
+	padding-top: 1px;
+	padding-bottom: 9px;
+	text-align: center;
+	border-radius: 40px;
+	cursor: pointer;
+}
+
+body {
+	background-color: #dfd2e7;
+}
+
+/* .button */
