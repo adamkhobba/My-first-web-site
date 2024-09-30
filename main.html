@@ -3,15 +3,18 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My Profile</title>
 	<link rel="stylesheet" href="style.css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
 	<header>
-		<a href="https://www.linkedin.com/in/mr-adam-khobba-65b70227a/">
-			<img class="logo" src="imgs/AKw.png" alt="Logo" class="logo"/>
+		<a href="#main">
+			<img class="logo" src="imgs/AKw.png" alt="Logo"/>
 		</a>
 		<nav class="sticky right_header">
 			<span class="some_space">Home</span>
@@ -19,12 +22,30 @@
 			<span class="some_space">Porject</span>
 		</nav>
 	</header>
-	<nav>
-		<!-- tree -->
-	</nav>
 	<main>
+		<div class="flex_1">
+			<div class="main_block">
+				<h1 id="main" class="my_name">Adam Khobba</h1>
+				<p>My name is <span class="color_text">Adam Khobba</span>, and I'm currently learning <em>html</em>.
+					<br>I'm a computer science student at <span class="color_text">1337</span>
+				</p>
+			<a href="https://youtu.be/_2zEqSCD7F4?si=V1B2VDoPXzI2KOIY&t=54">
+			<div class="button center_">
+				<p>button</p>
+			</div>
+			</a>
+			</div>
+			<img class="main_img" src="imgs/main_img.png" alt="main_img"/>
+		</div>
+		<div class="flex_project">
+			<div class="one border_project">printf</div>
+			<div class="two border_project">get_next_line</div>
+			<div class="three border_project">Push_swap</div>
+			<div class="four border_project">so_long</div>
+			<div class="five border_project">Philosophers</div>
+			<div class="six border_project">Minishell</div>
+		</div>
 	</main>
-	<!-- Links -->
 	<footer>
 	</footer>
 </body>
