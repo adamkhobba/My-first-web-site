@@ -66,12 +66,19 @@ header {
 	text-align: center;
 	border-radius: 40px;
 	cursor: pointer;
+	color: #fff;
+	font-weight: bold;
+}
+
+.void{
+	text-decoration: none;
 }
 
 .flex_project{
 	display: grid;
-	grid-template-columns: repeat(3, 400px);
-	grid-template-rows: repeat(2, 60px);
+	justify-content: center;
+	align-content: center;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 500px));
 	grid-gap: 10px;
 	margin: 20px;
 }
@@ -86,3 +93,62 @@ body {
 	background-color: #dfd2e7;
 }
 
+.my_name {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color:#4f0580;
+}
+
+.main_img{
+	margin: 40px;
+	height: 400px;
+}
+
+.flex_1{
+	display: flex;
+	justify-self: center;
+	justify-content: center;
+	background-color: #fff;
+}
+
+.main_block{
+	margin-top: 100px;
+}
+
+.button {
+	background: linear-gradient(#4f0580, #867194);
+	height: 40px;
+	width: 200px;
+	padding-top: 1px;
+	padding-bottom: 9px;
+	text-align: center;
+	border-radius: 40px;
+}
+
+.header_p{
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+	font-weight: 500;
+	font-style: normal;
+	color:#4f0580;
+	margin: 40px;
+}
+
+body {
+	background-color: #dfd2e7;
+}
+
+/* media */
+
+@media (max-width: 734px) {
+	.main_img{
+		display: none;
+	}
+	.flex_project{
+		grid-template-columns: repeat(auto-fit, minmax(350px, 450px));
+	}
+	.button {
+		width: 150px;
+	}
+}
