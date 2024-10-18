@@ -60,7 +60,8 @@ header {
 
 .button {
 	display: inline-block;
-	background: linear-gradient(#4f0580, #af90c5);
+	/* background: linear-gradient(#4f0580, #af90c5); */
+	background-color: #4f0580;
 	height: 40px;
 	width: 200px;
 	line-height: 40px;
@@ -70,7 +71,6 @@ header {
 	border-radius: 10px;
 	color: #fff;
 	font-weight: bold;
-	border: 2px solid #fff
 }
 
 .void{
@@ -165,19 +165,34 @@ p{
 footer {
 	background-color: #4f0580;
 	color: #fff;
-	text-align: center;
 	padding: 10px;
 }
 
 form{
 	display: grid;
-	grid-template-columns: repeat(2, minmax(50px, 150px));
+	grid-template-columns: repeat(2, minmax(100px, 350px));
 	justify-content: center;
-	align-content: center;
 }
 
 fieldset{
 	border: none;
+}
+
+input {
+	border: 1px solid #4f0580;
+	border-radius: 5px;
+	height: 30px;
+}
+
+label {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+textarea {
+	border: 1px solid #4f0580;
+	border-radius: 5px;
 }
 
 /* media */
