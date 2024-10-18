@@ -136,7 +136,7 @@ body {
 }
 
 .button_projects:hover{
-	opacity: 0.8;
+	background: #650ca0;
 }
 
 .button:hover{
@@ -160,6 +160,7 @@ p{
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	color: black;
 }
 
 footer {
@@ -213,5 +214,16 @@ textarea {
 	.main_block{
 		width: 70%;
 		margin-bottom: 20px;
+	}
+	form{
+		display: grid;
+		grid-template-columns: repeat(1, minmax(50px, 200px));
+		justify-content: center;
+	}
+	input {
+		width: 200px;
+	}
+	textarea {
+		width: 200px;
 	}
 }
